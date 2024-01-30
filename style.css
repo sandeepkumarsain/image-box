@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.tranjection {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tranjection img {
+    transition: all 0.5s;
+    height: 100%;
+    width: 100%;
+}
+
+.tranjection:hover img {
+    /* transform: scale(1.5); */
+    scale: 1.10;
+    transition: 2s;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
